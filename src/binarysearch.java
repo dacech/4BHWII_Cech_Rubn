@@ -1,6 +1,6 @@
-// char search algorithm
 
-public class Main {
+public class binarysearch {
+
 
     public static void main(String[] args) {
 
