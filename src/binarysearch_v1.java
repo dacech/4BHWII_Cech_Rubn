@@ -1,19 +1,23 @@
 
-public class binarysearch {
+//Binärsiche in Java
+public class binarysearch_v1 {
 
 
     public static void main(String[] args) {
 
         char[] charList = { 'a', 'b', 'c', 'd', 'e', 'k', 'm' };
 
-        // Test: Variable is not in the list
-        searchResult(searchChar(charList, 'c'));
 
-        // Test 1: Variable is in the list
+        // Test: Variable is not in the list
         searchResult(searchChar(charList, 'l'));
 
         // Test 1: Variable is in the list
+        searchResult(searchChar(charList, 'c'));
+
+        // Test 1: Variable is in the list
         searchResult(searchChar(charList, 'b'));
+
+
 
     }
 
