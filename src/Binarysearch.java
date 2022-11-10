@@ -1,6 +1,6 @@
 
 //Binärsiche in Java
-public class binarysearch_v1 {
+public class Binarysearch {
 
 
     public static void main(String[] args) {
