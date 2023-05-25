@@ -1,0 +1,6 @@
+Aufgabe: Eine Pizzeria erstellt je nach Parameter verschiedene Pizzen (Salami, Hawaii, Calzone), die immer gleich zubereitet werden (backen, schneiden, einpacken). 
+Um den regionalen W"unschen der Menschen in Berlin, Hamburg und Rostock zu gen"ugen, m"ussen spezielle Pizzen f"ur eben diese St"adte erstellt werden. 
+
+Diese Erstellung geschieht in den speziellen Unterklassen der Pizzeria (BerlinPizzeria, HamburgPizzeria, RostockPizzeria), die die speziellen Pizzen erstellen (BerlinSalami, RostockCalzone etc.). 
+
+Die Verarbeitung ist in allen F"allen gleich und erfolgt in der abstrakten Pizzeriaklasse, die nur die abstrahierte Pizzaschnittstelle kennt. 
